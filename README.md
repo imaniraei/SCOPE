@@ -31,10 +31,6 @@ SCOPE achieves state-of-the-art accuracy while reducing computational complexity
 
 ---
 
-
-
-
----
 ## Abstract
 
 Reliable object detection is a critical component of perception systems in autonomous driving. SCOPE introduces a latency-aware adaptive fusion framework that enhances EfficientDet through spatial-channel optimization, adaptive feature fusion, and computationally efficient architecture design.

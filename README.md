@@ -1,5 +1,12 @@
 # SCOPE
 
+[![Paper](https://img.shields.io/badge/Paper-T--ITS-blue)]()
+
+[![Code](https://img.shields.io/badge/Code-Coming_Soon-green)]()
+
+[![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
+
+
 Official repository of:
 
 **SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles**

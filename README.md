@@ -93,6 +93,19 @@ The repository will include:
 Performance evaluation and Grad-CAM visualization on the Udacity Self-Driving Car dataset.
 </p>
 
+### Quantitative Evaluation Across Model Scales
+
+| Model | Scale | Input Res. | BiFPN Channels | BiFPN Layers | Box/Class Layers | mAP@0.5 | mAP@0.75 | mAP | Params (M) | FLOPs (B) | Latency (s) |
+|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
+| EfficientDet | 0 | 512 | 64 | 3 | 3 | 66.41 | 54.15 | 52.32 | 3.94 | 2.55 | 0.0810 |
+| **SCOPE** | 0 | 512 | 64 | 1 | 3 | **68.32** | **56.22** | **54.41** | **3.16** | **1.91** | **0.0782** |
+| EfficientDet | 1 | 640 | 88 | 4 | 3 | 72.15 | 58.09 | 56.19 | 4.31 | 4.88 | 0.0868 |
+| **SCOPE** | 1 | 640 | 88 | 1 | 3 | **73.60** | **59.59** | **57.78** | **3.57** | **4.12** | **0.0813** |
+| EfficientDet | 2 | 768 | 112 | 5 | 3 | 75.88 | 60.62 | 58.65 | 4.98 | 9.61 | 0.0943 |
+| **SCOPE** | 2 | 768 | 112 | 1 | 3 | **76.86** | **61.62** | **59.89** | **4.29** | **8.62** | **0.0856** |
+| EfficientDet | 3 | 896 | 160 | 6 | 4 | 78.32 | 62.27 | 60.42 | 6.42 | 19.22 | 0.1042 |
+| **SCOPE** | 3 | 896 | 160 | 1 | 4 | **79.00** | **62.96** | **61.05** | **5.94** | **17.75** | **0.0913** |
+
 ---
 
 ### KITTI Dataset

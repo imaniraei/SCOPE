@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-T--ITS-green)]()
 [![Framework](https://img.shields.io/badge/Overview-SCOPE-blue)](#framework-overview)
-[![Datasets](https://img.shields.io/badge/Datasets-Udacity%20|%20KITTI%20|%20BDD100K%20|%20nuScenes-yellow)](#datasets)
+[![Datasets](https://img.shields.io/badge/Datasets-Access-yellow)](#datasets)
 [![Code](https://img.shields.io/badge/Code-Coming_Soon-lightgrey)]()
 [![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
 [![BibTeX](https://img.shields.io/badge/BibTeX-Cite-purple)](#citation)

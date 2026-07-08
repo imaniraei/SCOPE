@@ -115,6 +115,29 @@ The repository will include:
 
 
 
+## 🚀 Code and Models
+
+The official implementation will be released upon acceptance of the paper.
+
+### Source Code
+- 🚧 Code release coming soon.
+
+### Google Colab Demo
+Coming soon.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+The Colab notebook will provide a quick demonstration of inference using the pretrained SCOPE models.
+
+### Repository Contents
+- Training scripts
+- Evaluation scripts
+- Dataset preparation tools
+- Pretrained checkpoints
+- Configuration files
+
+
+
 
 
 ## Repository Structure

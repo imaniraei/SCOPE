@@ -6,7 +6,7 @@
 [![Code](https://img.shields.io/badge/Code-Coming_Soon-lightgrey)]()
 [![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
 [![BibTeX](https://img.shields.io/badge/BibTeX-Cite-purple)](#citation)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/demo.ipynb)
+
 
 
 

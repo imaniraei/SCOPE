@@ -16,7 +16,7 @@ Official repository of:
 
 Iman Iraei, M. Omair Ahmad, and M. N. S. Swamy
 
----
+
 
 
 ## 🔥 Teaser
@@ -29,7 +29,7 @@ Iman Iraei, M. Omair Ahmad, and M. N. S. Swamy
 SCOPE achieves state-of-the-art accuracy while reducing computational complexity and inference latency across multiple autonomous driving datasets.
 </p>
 
----
+
 
 ## Abstract
 
@@ -65,7 +65,7 @@ inference latency, thereby outperforming state-of-the-art object
 detection methods in terms of both detection performance and
 computational efficiency.
 
----
+
 
 ## Framework Overview
 
@@ -75,7 +75,7 @@ The overall architecture of SCOPE is illustrated below.
   <img src="assets/scope_architecture.png" width="900">
 </p>
 
----
+
 
 ## Key Contributions
 
@@ -85,7 +85,7 @@ The overall architecture of SCOPE is illustrated below.
 - Improved detection performance for distant and occluded objects.
 - Real-time deployment capability for autonomous driving systems.
 
----
+
 
 ## 📂 Datasets
 
@@ -110,7 +110,7 @@ The repository will include:
 - Pretrained checkpoints
 - Configuration files
 
----
+
 
 
 ## 📊 Experimental Results
@@ -145,34 +145,6 @@ Performance evaluation and Grad-CAM visualization on the Udacity Self-Driving Ca
 | **SCOPE** | 6 | 1280 | 384 | 1 | 5 | **81.68** | **64.47** | **62.71** | **27.44** | **145.24** | **0.1217** |
 | EfficientDet | 7 | 1536 | 384 | 8 | 5 | **82.04** | **64.78** | **63.09** | 51.11 | 321.82 | 0.1850 |
 | **SCOPE** | 7 | 1536 | 384 | 1 | 5 | 81.97 | 64.68 | 62.98 | **46.51** | **258.25** | **0.1382** |
-
----
-
-
-
-
-
-
-## Quantitative Evaluation Across Model Scales on Udacity
-
-| Scale | Input Res. | Model | BiFPN Channels | BiFPN Layers | Box/Class Layers | mAP@0.5 | mAP@0.75 | mAP | Params (M) | FLOPs (B) | Latency (s) |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 0 | 512 | EfficientDet-D0 | 64 | 3 | 3 | 66.41 | 54.15 | 52.32 | 3.94 | 2.55 | 0.0810 |
-| 0 | 512 | **SCOPE-S0** | 64 | 1 | 3 | **68.32** | **56.22** | **54.41** | **3.16** | **1.91** | **0.0782** |
-| 1 | 640 | EfficientDet-D1 | 88 | 4 | 3 | 72.15 | 58.09 | 56.19 | 4.31 | 4.88 | 0.0868 |
-| 1 | 640 | **SCOPE-S1** | 88 | 1 | 3 | **73.60** | **59.59** | **57.78** | **3.57** | **4.12** | **0.0813** |
-| 2 | 768 | EfficientDet-D2 | 112 | 5 | 3 | 75.88 | 60.62 | 58.65 | 4.98 | 9.61 | 0.0943 |
-| 2 | 768 | **SCOPE-S2** | 112 | 1 | 3 | **76.86** | **61.62** | **59.89** | **4.29** | **8.62** | **0.0856** |
-| 3 | 896 | EfficientDet-D3 | 160 | 6 | 4 | 78.32 | 62.27 | 60.42 | 6.42 | 19.22 | 0.1042 |
-| 3 | 896 | **SCOPE-S3** | 160 | 1 | 4 | **79.00** | **62.96** | **61.05** | **5.94** | **17.75** | **0.0913** |
-| 4 | 1024 | EfficientDet-D4 | 224 | 7 | 4 | 79.91 | 63.33 | 61.45 | 9.25 | 38.72 | 0.1171 |
-| 4 | 1024 | **SCOPE-S4** | 224 | 1 | 4 | **80.41** | **63.83** | **62.01** | **8.96** | **36.27** | **0.0987** |
-| 5 | 1280 | EfficientDet-D5 | 288 | 7 | 4 | 80.95 | 63.99 | 62.11 | 16.71 | 88.30 | 0.1340 |
-| 5 | 1280 | **SCOPE-S5** | 288 | 1 | 4 | **81.14** | **64.19** | **62.49** | **16.62** | **81.89** | **0.1081** |
-| 6 | 1280 | EfficientDet-D6 | 384 | 8 | 5 | 81.62 | 64.41 | 62.66 | 29.86 | 178.67 | 0.1661 |
-| 6 | 1280 | **SCOPE-S6** | 384 | 1 | 5 | **81.68** | **64.47** | **62.71** | **27.44** | **145.24** | **0.1217** |
-| 7 | 1536 | EfficientDet-D7 | 384 | 8 | 5 | **82.04** | **64.78** | **63.09** | 51.11 | 321.82 | 0.1850 |
-| 7 | 1536 | **SCOPE-S7** | 384 | 1 | 5 | 81.97 | 64.68 | 62.98 | **46.51** | **258.25** | **0.1382** |
 
 
 

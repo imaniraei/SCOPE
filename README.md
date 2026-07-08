@@ -185,9 +185,8 @@ Performance evaluation and Grad-CAM visualization on the BDD100K dataset.
 Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 </p>
 
----
 
----
+
 
 ## Status
 
@@ -195,7 +194,6 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 The official implementation of SCOPE will be released in this repository after the peer-review process.
 
----
 
 ## Citation
 

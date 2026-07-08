@@ -66,11 +66,7 @@ Public datasets used in our study:
 - [BDD100K Dataset](https://bdd-data.berkeley.edu/)
 - [nuScenes Dataset](https://www.nuscenes.org/download)
 
----
 
----
-
----
 
 ## 🚀 Code and Models
 

@@ -100,7 +100,7 @@ Public datasets used in our study:
 
 ## 🚀 Code and Models
 
-Code release is coming soon.
+The official implementation of SCOPE will be released in this repository after the peer-review process.
 
 The repository will include:
 

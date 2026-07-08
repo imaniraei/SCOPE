@@ -61,12 +61,12 @@ The overall architecture of SCOPE is illustrated below.
 
 Public datasets used in our study:
 
-| Dataset | Task | Link |
-|---|---|---|
-| Udacity Self-Driving Car Dataset | Object Detection | [Download / Dataset Page](https://public.roboflow.com/object-detection/self-driving-car) |
-| KITTI Object Detection Benchmark | Object Detection | [Download / Dataset Page](https://www.cvlibs.net/datasets/kitti/eval_object.php) |
-| BDD100K Dataset | Object Detection / Driving Scenes | [Download / Dataset Page](https://bdd-data.berkeley.edu/) |
-| nuScenes Dataset | Autonomous Driving / Detection | [Download / Dataset Page](https://www.nuscenes.org/download) |
+- [Udacity Self-Driving Car Dataset](https://public.roboflow.com/object-detection/self-driving-car)
+- [KITTI Object Detection Benchmark](https://www.cvlibs.net/datasets/kitti/eval_object.php)
+- [BDD100K Dataset](https://bdd-data.berkeley.edu/)
+- [nuScenes Dataset](https://www.nuscenes.org/download)
+
+---
 
 ---
 

@@ -113,6 +113,57 @@ The repository will include:
 
 
 
+
+## Repository Structure
+
+```text
+SCOPE/
+│
+├── assets/
+├── configs/
+│   ├── scope_s0.yaml
+│   ├── scope_s1.yaml
+│   └── ...
+│
+├── models/
+│   ├── efficientnet.py
+│   ├── cbam.py
+│   ├── adaptive_bifpn.py
+│   ├── heads.py
+│   └── scope.py
+│
+├── datasets/
+│   ├── udacity.py
+│   ├── kitti.py
+│   ├── bdd100k.py
+│   ├── nuscenes.py
+│   └── transforms.py
+│
+├── scripts/
+│   ├── train.py
+│   ├── test.py
+│   ├── eval.py
+│   └── inference.py
+│
+├── utils/
+│   ├── losses.py
+│   ├── metrics.py
+│   ├── visualization.py
+│   └── gradcam.py
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+> **Note:** The above repository structure represents the planned organization of the official implementation. The complete source code will be released upon acceptance of the paper.
+
+---
+
+
+
+
+
 ## 📊 Experimental Results
 
 ### Udacity Dataset

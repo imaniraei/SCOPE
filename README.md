@@ -191,7 +191,9 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 ## Status
 
-🚧 Code release coming soon.
+🚧 ## Code Availability
+
+The official implementation of SCOPE will be released in this repository after the peer-review process.
 
 ---
 

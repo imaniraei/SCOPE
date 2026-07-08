@@ -101,18 +101,6 @@ Public datasets used in our study:
 
 
 
-## 🚀 Code and Models
-
-The official implementation of SCOPE will be released in this repository after the peer-review process.
-
-The repository will include:
-
-- Training scripts
-- Evaluation scripts
-- Dataset preparation tools
-- Pretrained checkpoints
-- Configuration files
-
 
 
 ## 🚀 Code and Models

@@ -33,7 +33,37 @@ SCOPE achieves state-of-the-art accuracy while reducing computational complexity
 
 ## Abstract
 
-Reliable object detection is a critical component of perception systems in autonomous driving. SCOPE introduces a latency-aware adaptive fusion framework that enhances EfficientDet through spatial-channel optimization, adaptive feature fusion, and computationally efficient architecture design.
+Reliable object detection is a critical component of
+perception systems in autonomous driving, where recognizing
+objects and understanding complex scenes are essential for safety
+and decision-making. Among existing detectors, EfficientDet
+offers a promising trade-off between accuracy and efficiency
+through its compound scaling and Bi-directional Feature Pyramid
+Network (BiFPN). However, its performance is hindered by three
+key challenges: (1) loss of fine-grained spatial details due to backbone
+downsampling, (2) limited contextual awareness resulting
+from suboptimal feature fusion in BiFPN layers, and (3) increased
+inference latency caused by stacking multiple BiFPN modules.
+Unlike conventional BiFPN architectures that rely on static multiscale
+fusion, autonomous driving scenes require adaptive feature
+selection mechanisms capable of handling severe scale variation
+and real-time latency constraints. To overcome these limitations,
+we propose a latency-aware adaptive attention fusion framework,
+referred to as SCOPE, designed for real-time autonomous
+driving perception. SCOPE enhances the EfficientNet backbone
+through spatial and channel attention refinement within the
+MBConv blocks, while adaptive channel-wise feature weighting
+is utilized in a novel efficient attention-guided feature fusion
+strategy to improve multi-scale representation quality and fusion
+efficiency. The proposed single-layer adaptive attention fusion
+method dynamically prioritizes informative multi-scale features
+while reducing redundant feature propagation and computational
+overhead. Extensive experiments on multiple autonomous driving
+datasets demonstrate that SCOPE improves detection accuracy,
+while simultaneously reducing computational complexity and
+inference latency, thereby outperforming state-of-the-art object
+detection methods in terms of both detection performance and
+computational efficiency.
 
 ---
 
@@ -63,7 +93,7 @@ Public datasets used in our study:
 
 - [Udacity Self-Driving Car Dataset](https://public.roboflow.com/object-detection/self-driving-car)
 - [KITTI Object Detection Benchmark](https://www.cvlibs.net/datasets/kitti/eval_object.php)
-- [BDD100K Dataset](https://bdd-data.berkeley.edu/)
+- [BDD100K Dataset](https://www.vis.xyz/bdd100k/)
 - [nuScenes Dataset](https://www.nuscenes.org/download)
 
 

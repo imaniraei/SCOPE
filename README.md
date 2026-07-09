@@ -21,7 +21,7 @@ SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time
 
 
 
-## 🔥 Overview
+## Overview
 
 <p align="center">
   <img src="assets/teaser.png" width="1000">

@@ -1,11 +1,5 @@
 # SCOPE
 
-[![Paper](https://img.shields.io/badge/Paper-T--ITS-green)]()
-[![Framework](https://img.shields.io/badge/Overview-SCOPE-blue)](#framework-overview)
-[![Datasets](https://img.shields.io/badge/Datasets-Access-yellow)](#datasets)
-[![Code](https://img.shields.io/badge/Code-Coming_Soon-red)]()
-[![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
-[![BibTeX](https://img.shields.io/badge/BibTeX-Cite-purple)](#citation)
 
 
 
@@ -20,6 +14,14 @@ Official repository of:
 Iman Iraei, M. Omair Ahmad, and M. N. S. Swamy
 
 
+
+
+[![Paper](https://img.shields.io/badge/Paper-T--ITS-green)]()
+[![Framework](https://img.shields.io/badge/Overview-SCOPE-blue)](#framework-overview)
+[![Datasets](https://img.shields.io/badge/Datasets-Access-yellow)](#datasets)
+[![Code](https://img.shields.io/badge/Code-Coming_Soon-red)]()
+[![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
+[![BibTeX](https://img.shields.io/badge/BibTeX-Cite-purple)](#citation)
 
 
 ## 🔥 Teaser

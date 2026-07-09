@@ -1,28 +1,25 @@
 # SCOPE
 
+<h1 align="center">
+SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles
+</h1>
 
+<p align="center">
+  <a href="https://imaniraei.github.io/">Iman Iraei</a>,
+  <a href="https://users.encs.concordia.ca/~omair/">M. Omair Ahmad</a>,
+  <a href="https://users.encs.concordia.ca/~swamy/">M. N. S. Swamy</a>
+</p>
 
+<p align="center">
+  <a href=""><img src="https://img.shields.io/badge/📄_Paper-T--ITS-green"></a>
+  <a href="#framework-overview"><img src="https://img.shields.io/badge/🔗_Project-Overview-blue"></a>
+  <a href="#datasets"><img src="https://img.shields.io/badge/🤗_Datasets-Access-yellow"></a>
+  <a href=""><img src="https://img.shields.io/badge/💻_Code-Coming_Soon-red"></a>
+  <a href=""><img src="https://img.shields.io/badge/🚧_Status-Under_Review-orange"></a>
+  <a href="#citation"><img src="https://img.shields.io/badge/📚_BibTeX-Citation-purple"></a>
+</p>
 
-
-
-Official repository of:
-
-**SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles**
-
-### Authors
-
-Iman Iraei, M. Omair Ahmad, and M. N. S. Swamy
-
-
-
-
-[![Paper](https://img.shields.io/badge/Paper-T--ITS-green)]()
-[![Framework](https://img.shields.io/badge/Overview-SCOPE-blue)](#framework-overview)
-[![Datasets](https://img.shields.io/badge/Datasets-Access-yellow)](#datasets)
-[![Code](https://img.shields.io/badge/Code-Coming_Soon-red)]()
-[![Status](https://img.shields.io/badge/Status-Under_Review-orange)]()
-[![BibTeX](https://img.shields.io/badge/BibTeX-Cite-purple)](#citation)
-
+---
 
 ## 🔥 Teaser
 
@@ -33,9 +30,6 @@ Iman Iraei, M. Omair Ahmad, and M. N. S. Swamy
 <p align="center">
 SCOPE achieves state-of-the-art accuracy while reducing computational complexity and inference latency across multiple autonomous driving datasets.
 </p>
-
-
-
 ## Abstract
 
 Reliable object detection is a critical component of

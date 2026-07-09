@@ -14,7 +14,7 @@ SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time
   <a href=""><img src="https://img.shields.io/badge/📄_Paper-T--ITS-green"></a>
   <a href="#framework-overview"><img src="https://img.shields.io/badge/🔗_Project-Overview-blue"></a>
   <a href="#datasets"><img src="https://img.shields.io/badge/🤗_Datasets-Access-yellow"></a>
-  <a href=""><img src="https://img.shields.io/badge/💻_Code-Coming_Soon-red"></a>
+  <a href=""><img src="https://img.shields.io/badge/💻_Code-Try-red"></a>
   <a href=""><img src="https://img.shields.io/badge/🚧_Status-Under_Review-orange"></a>
   <a href="#citation"><img src="https://img.shields.io/badge/📚_BibTeX-Citation-purple"></a>
 </p>

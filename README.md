@@ -113,7 +113,7 @@ The official implementation will be released upon acceptance of the paper.
 ### Google Colab Demo
 Coming soon.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/training_demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb)
 
 The Colab notebook will provide a quick demonstration of inference using the pretrained SCOPE models.
 

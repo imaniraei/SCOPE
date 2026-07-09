@@ -97,13 +97,7 @@ Public datasets used in our study:
 
 ## 🚀 Code and Models
 
-The official implementation will be released upon acceptance of the paper.
-
-### Source Code
-- 🚧 Code release coming soon.
-
 ### Google Colab Demo
-Coming soon.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb)
 
@@ -161,8 +155,6 @@ SCOPE/
 ├── requirements.txt
 └── LICENSE
 ```
-
-> **Note:** The above repository structure represents the planned organization of the official implementation. The complete source code will be released upon acceptance of the paper.
 
 ---
 
@@ -247,9 +239,11 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 ## Status
 
-🚧 ## Code Availability
+The SCOPE is under review.
 
-The official implementation of SCOPE will be released in this repository after the peer-review process.
+
+
+
 
 
 ## Citation

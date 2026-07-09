@@ -64,7 +64,7 @@ computational efficiency.
 
 
 
-## Framework Overview
+## Method
 
 The overall architecture of SCOPE is illustrated below.
 

@@ -1,4 +1,4 @@
-# SCOPE
+
 
 <h1 align="center">
 SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles

@@ -27,9 +27,7 @@ SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time
   <img src="assets/teaser.png" width="1000">
 </p>
 
-<p align="center">
-SCOPE achieves state-of-the-art accuracy while reducing computational complexity and inference latency across multiple autonomous driving datasets.
-</p>
+
 Abstract: Reliable object detection is a critical component of
 perception systems in autonomous driving, where recognizing
 objects and understanding complex scenes are essential for safety

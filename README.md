@@ -254,6 +254,9 @@ The official implementation of SCOPE will be released in this repository after t
 
 ## Citation
 
+If you use our work, please consider citing:
+
+
 ```bibtex
 @article{iraei2026scope,
   title={SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles},

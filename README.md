@@ -19,7 +19,7 @@ SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time
   <a href="#citation"><img src="https://img.shields.io/badge/📚_BibTeX-Citation-purple"></a>
 </p>
 
----
+
 
 ## 🔥 Teaser
 

@@ -239,9 +239,7 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 ## Status
 
-The SCOPE is under review.
-
-
+The SCOPE manuscript is currently under review at IEEE Transactions on Intelligent Transportation Systems (T-ITS).
 
 
 

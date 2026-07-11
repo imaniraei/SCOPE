@@ -83,7 +83,7 @@ After the installation is complete, SCOPE is ready to use.
 
 ## 6. Project Structure
 
-```text
+
 SCOPE/
 ├── assets/
 ├── configs/

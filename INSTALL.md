@@ -70,8 +70,14 @@ scope_env\Scripts\activate
 
 ## 5. Install Dependencies
 
-Coming soon.
+Install all required Python packages using:
 
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+After the installation is complete, SCOPE is ready to use.
 ---
 
 ## 6. Verify the Installation

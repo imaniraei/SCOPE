@@ -17,17 +17,17 @@ The following software and hardware are recommended for running SCOPE:
 
 - Ubuntu 22.04 or later
 - Python 3.8+
-- NVIDIA GPU with CUDA 11.5 or later
+- NVIDIA CUDA 11.5 or later
 - PyTorch 2.0.1
 - torchvision 0.15.2
-- At least 16 GB RAM
-- NVIDIA GPU with at least 8 GB GPU memory (recommended)
+- NVIDIA A100 GPU (32 GB) or equivalent
+- At least 16 GB system memory
 
 ---
 
 ## 2. Tested Software Environment
 
-The official implementation of SCOPE has been tested using the following software environment.
+The official implementation of SCOPE has been developed and evaluated using the following software and hardware environment.
 
 | Component | Version |
 |-----------|---------|
@@ -36,6 +36,7 @@ The official implementation of SCOPE has been tested using the following softwar
 | CUDA | 11.5 |
 | PyTorch | 2.0.1 |
 | torchvision | 0.15.2 |
+| GPU | NVIDIA A100 (32 GB) |
 
 ---
 

@@ -42,7 +42,12 @@ The official implementation of SCOPE has been developed and evaluated using the 
 
 ## 3. Clone the Repository
 
-Coming soon.
+Clone the official SCOPE repository from GitHub:
+
+```bash
+git clone https://github.com/imaniraei/SCOPE.git
+cd SCOPE
+```
 
 ---
 

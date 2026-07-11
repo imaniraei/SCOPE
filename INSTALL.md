@@ -53,7 +53,18 @@ cd SCOPE
 
 ## 4. Create a Python Virtual Environment
 
-Coming soon.
+We recommend creating a dedicated Python virtual environment before installing the project dependencies.
+
+```bash
+python3 -m venv scope_env
+source scope_env/bin/activate
+```
+
+For Windows users:
+
+```bash
+scope_env\Scripts\activate
+```
 
 ---
 

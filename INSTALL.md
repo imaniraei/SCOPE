@@ -105,18 +105,19 @@ True
 ```
 
 
-
 ## 7. Running on Google Colab
 
-Google Colab is intended only for lightweight demonstrations, inference, and testing on a small number of samples.
+Google Colab is recommended for **inference and quick experimentation only**.
 
-Full SCOPE training is computationally intensive and may require approximately two days on an NVIDIA A100 GPU. Therefore, full training on a standard hosted Colab runtime is not recommended due to runtime limits, possible disconnections, and non-guaranteed GPU availability.
+The official Colab notebook demonstrates how to perform object detection using a pretrained SCOPE model on custom images.
 
-For full training, we recommend using an HPC cluster with Slurm or another persistent GPU environment.
+> **Note:** Full model training is computationally intensive and is **not recommended** on the standard Google Colab runtime due to GPU availability and execution time limits.
 
-### Colab Demo
+### Inference Demo
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Inference.ipynb)
+
+
 
 
 ## 8. Running on HPC (SLURM)

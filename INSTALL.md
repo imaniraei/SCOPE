@@ -80,30 +80,6 @@ pip install -r requirements.txt
 After the installation is complete, SCOPE is ready to use.
 
 
-
-## 6. Project Structure
-
-
-SCOPE/
-├── assets/
-├── configs/
-├── datasets/
-├── models/
-├── notebooks/
-├── outputs/
-├── scripts/
-├── utils/
-├── README.md
-├── INSTALL.md
-├── DATASETS.md
-├── RUN.md
-└── requirements.txt
-
-
-
-
-
-
 ---
 
 ## 6. Verify the Installation

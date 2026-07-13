@@ -84,13 +84,37 @@ After the installation is complete, SCOPE is ready to use.
 
 ## 6. Verify the Installation
 
-Coming soon.
+To verify that the installation has been completed successfully, run:
+
+```bash
+python -c "import torch; print(torch.__version__)"
+```
+
+If PyTorch is installed correctly, the command should print the installed version (e.g., `2.0.1`).
+
+You can also verify GPU availability by running:
+
+```bash
+python -c "import torch; print(torch.cuda.is_available())"
+```
+
+The command should return:
+
+```text
+True
+```
 
 
 
 ## 7. Running on Google Colab
 
-Coming soon.
+SCOPE provides Google Colab notebooks for quick experimentation without requiring a local installation.
+
+### Training Demo
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb)
+
+The notebook demonstrates how to train SCOPE using Google Colab.
 
 
 

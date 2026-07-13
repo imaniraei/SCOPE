@@ -150,4 +150,6 @@ Training logs will be written to the `logs/` directory, while model checkpoints 
 
 ## 9. Troubleshooting
 
-Coming soon.
+If you encounter any issues while installing or running SCOPE, please open an issue on the GitHub repository.
+
+We will continue updating this guide as the project evolves.

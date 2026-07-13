@@ -122,7 +122,29 @@ The official Colab notebook demonstrates how to perform object detection using a
 
 ## 8. Running on HPC (SLURM)
 
-Coming soon.
+SCOPE supports distributed training on High-Performance Computing (HPC) clusters managed by the Slurm workload manager.
+
+An example Slurm batch script is provided in:
+
+```text
+scripts/slurm_train_template.sh
+```
+
+Before submitting the job, update the following fields according to your HPC environment:
+
+- Slurm account
+- Partition name
+- Email address
+- Project directory
+- Python virtual environment
+
+Once the script has been configured, submit the training job using:
+
+```bash
+sbatch scripts/slurm_train_template.sh
+```
+
+Training logs will be written to the `logs/` directory, while model checkpoints will be saved under the `outputs/` directory.
 
 
 

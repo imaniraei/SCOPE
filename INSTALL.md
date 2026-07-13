@@ -9,7 +9,7 @@ Supported platforms:
 - ☁️ Google Colab
 - 🖥️ High-Performance Computing (HPC) clusters with Slurm
 
----
+
 
 ## 1. System Requirements
 
@@ -23,7 +23,7 @@ The following software and hardware are recommended for running SCOPE:
 - NVIDIA A100 GPU (32 GB) or equivalent
 - At least 16 GB system memory
 
----
+
 
 ## 2. Tested Software Environment
 
@@ -38,7 +38,7 @@ The official implementation of SCOPE has been developed and evaluated using the 
 | torchvision | 0.15.2 |
 | GPU | NVIDIA A100 (32 GB) |
 
----
+
 
 ## 3. Clone the Repository
 
@@ -49,7 +49,7 @@ git clone https://github.com/imaniraei/SCOPE.git
 cd SCOPE
 ```
 
----
+
 
 ## 4. Create a Python Virtual Environment
 
@@ -66,7 +66,7 @@ For Windows users:
 scope_env\Scripts\activate
 ```
 
----
+
 
 ## 5. Install Dependencies
 
@@ -80,25 +80,25 @@ pip install -r requirements.txt
 After the installation is complete, SCOPE is ready to use.
 
 
----
+
 
 ## 6. Verify the Installation
 
 Coming soon.
 
----
+
 
 ## 7. Running on Google Colab
 
 Coming soon.
 
----
+
 
 ## 8. Running on HPC (SLURM)
 
 Coming soon.
 
----
+
 
 ## 9. Troubleshooting
 

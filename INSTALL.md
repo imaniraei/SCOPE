@@ -108,14 +108,15 @@ True
 
 ## 7. Running on Google Colab
 
-SCOPE provides Google Colab notebooks for quick experimentation without requiring a local installation.
+Google Colab is intended only for lightweight demonstrations, inference, and testing on a small number of samples.
 
-### Training Demo
+Full SCOPE training is computationally intensive and may require approximately two days on an NVIDIA A100 GPU. Therefore, full training on a standard hosted Colab runtime is not recommended due to runtime limits, possible disconnections, and non-guaranteed GPU availability.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb)
+For full training, we recommend using an HPC cluster with Slurm or another persistent GPU environment.
 
-The notebook demonstrates how to train SCOPE using Google Colab.
+### Colab Demo
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Inference.ipynb)
 
 
 ## 8. Running on HPC (SLURM)

@@ -2,7 +2,7 @@
 
 This guide explains how to install and run the official implementation of **SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles**.
 
----
+
 
 # 1. System Requirements
 
@@ -20,7 +20,7 @@ Recommended:
 - NVIDIA A100 GPU
 - At least 16 GB GPU memory
 
----
+
 
 # 2. Tested Software Environment
 
@@ -33,7 +33,7 @@ Recommended:
 | GPU | NVIDIA A100 |
 | Training Platform | HPC (SLURM) |
 
----
+
 
 # 3. Clone the Repository
 
@@ -43,7 +43,7 @@ git clone https://github.com/imaniraei/SCOPE.git
 cd SCOPE
 ```
 
----
+
 
 # 4. Create a Python Virtual Environment
 
@@ -53,7 +53,7 @@ python3 -m venv scope_env
 source scope_env/bin/activate
 ```
 
----
+
 
 # 5. Install Dependencies
 
@@ -69,7 +69,7 @@ Install all required packages
 pip install -r requirements.txt
 ```
 
----
+
 
 # 6. Repository Structure
 
@@ -91,7 +91,7 @@ SCOPE/
 ├── requirements.txt
 ```
 
----
+
 
 # 7. Prepare the Dataset
 
@@ -106,7 +106,7 @@ Currently supported datasets:
 
 Please refer to **DATASETS.md** for the required directory structure and dataset preparation instructions.
 
----
+
 
 # 8. Training on HPC (SLURM)
 
@@ -124,7 +124,7 @@ Launch training using
 sbatch scripts/slurm_train_template.sh
 ```
 
----
+
 
 # 9. Running Inference (Google Colab)
 
@@ -142,7 +142,7 @@ Then
 2. Upload an input image
 3. Run all notebook cells
 
----
+
 
 # 10. Verify the Installation
 
@@ -154,7 +154,7 @@ python scripts/inference.py --help
 
 If the help message is displayed successfully, the installation is complete.
 
----
+
 
 # 11. Troubleshooting
 
@@ -162,7 +162,7 @@ If the help message is displayed successfully, the installation is complete.
 
 Ensure that your installed CUDA version matches the PyTorch CUDA version.
 
----
+
 
 ### Missing Python packages
 
@@ -174,19 +174,19 @@ pip install -r requirements.txt
 
 again.
 
----
+
 
 ### Dataset not found
 
 Verify that all dataset paths are correctly specified.
 
----
+
 
 ### CUDA Out of Memory
 
 Reduce the batch size in the training configuration.
 
----
+
 
 # Citation
 

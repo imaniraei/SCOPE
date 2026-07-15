@@ -1,0 +1,10 @@
+dataset:
+  name: bdd100k
+  display_name: "BDD100K"
+  format: COCO_JSON
+  train_images: /path/to/bdd100k/train/images
+  train_annotations: /path/to/bdd100k/train/annotations.json
+  val_images: /path/to/bdd100k/val/images
+  val_annotations: /path/to/bdd100k/val/annotations.json
+  test_images: /path/to/bdd100k/test/images
+  test_annotations: /path/to/bdd100k/test/annotations.json

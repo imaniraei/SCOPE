@@ -1,0 +1,10 @@
+dataset:
+  name: kitti
+  display_name: "KITTI"
+  format: COCO_JSON
+  train_images: /path/to/kitti/train/images
+  train_annotations: /path/to/kitti/train/annotations.json
+  val_images: /path/to/kitti/val/images
+  val_annotations: /path/to/kitti/val/annotations.json
+  test_images: /path/to/kitti/test/images
+  test_annotations: /path/to/kitti/test/annotations.json

@@ -1,0 +1,10 @@
+dataset:
+  name: nuscenes
+  display_name: "nuScenes"
+  format: COCO_JSON
+  train_images: /path/to/nuscenes/train/images
+  train_annotations: /path/to/nuscenes/train/annotations.json
+  val_images: /path/to/nuscenes/val/images
+  val_annotations: /path/to/nuscenes/val/annotations.json
+  test_images: /path/to/nuscenes/test/images
+  test_annotations: /path/to/nuscenes/test/annotations.json

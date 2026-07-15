@@ -1,0 +1,10 @@
+dataset:
+  name: udacity
+  display_name: "Udacity Self-Driving Car"
+  format: COCO_JSON
+  train_images: /path/to/udacity/train/images
+  train_annotations: /path/to/udacity/train/annotations.json
+  val_images: /path/to/udacity/val/images
+  val_annotations: /path/to/udacity/val/annotations.json
+  test_images: /path/to/udacity/test/images
+  test_annotations: /path/to/udacity/test/annotations.json

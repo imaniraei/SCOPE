@@ -13,132 +13,96 @@ All datasets must be converted to **COCO JSON** format before training or evalua
 
 ---
 
-# Expected Directory Structure
+# Download the Datasets
 
-The repository expects the following directory structure.
+The datasets are **not included** in this repository.
+
+Please download each dataset from its official source and store it in a location of your choice (e.g., your local machine, external storage, or HPC filesystem).
+
+---
+
+# Expected Dataset Structure
+
+Each dataset should follow the standard COCO directory structure.
+
+Example:
 
 ```
-datasets/
+udacity/
 
-├── udacity/
-│   ├── train/
-│   │   ├── images/
-│   │   └── annotations.json
-│   │
-│   ├── val/
-│   │   ├── images/
-│   │   └── annotations.json
-│   │
-│   └── test/
-│       ├── images/
-│       └── annotations.json
+├── train/
+│   ├── images/
+│   └── annotations.json
 │
-├── kitti/
-│   ├── train/
-│   ├── val/
-│   └── test/
+├── val/
+│   ├── images/
+│   └── annotations.json
 │
-├── bdd100k/
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-└── nuscenes/
-    ├── train/
-    ├── val/
-    └── test/
+└── test/
+    ├── images/
+    └── annotations.json
 ```
+
+The same structure applies to:
+
+- KITTI
+- BDD100K
+- nuScenes
+
+The datasets **do not need to be stored inside the SCOPE repository**.
 
 ---
 
 # Supported Annotation Format
 
-SCOPE expects annotations in the standard COCO detection format.
+SCOPE expects annotations in the standard **COCO Detection** format.
 
-Each dataset should contain:
+Each dataset split should contain
 
 - images/
 - annotations.json
 
-The annotation file must include:
+The annotation file must include the standard COCO fields:
 
 - images
 - annotations
 - categories
 
-following the official COCO specification.
-
 ---
 
 # Dataset Configuration
 
-Update the corresponding YAML configuration inside
+Specify the dataset locations inside the corresponding YAML configuration file located in
 
 ```
 configs/
 ```
 
-For example
+For example,
 
 ```
 configs/dataset_udacity.yaml
 ```
 
-and replace
+Replace all placeholder paths
 
 ```
 /path/to/...
 ```
 
-with your local dataset paths.
+with the actual locations of your datasets.
 
----
-
-# Training Dataset
-
-Example
+For example,
 
 ```
-train_images
+train_images:
+/speed-scratch/username/datasets/udacity/train/images
 
-datasets/udacity/train/images
-
-train_annotations
-
-datasets/udacity/train/annotations.json
+train_annotations:
+/speed-scratch/username/datasets/udacity/train/annotations.json
 ```
 
----
-
-# Validation Dataset
-
-Example
-
-```
-val_images
-
-datasets/udacity/val/images
-
-val_annotations
-
-datasets/udacity/val/annotations.json
-```
-
----
-
-# Test Dataset
-
-Example
-
-```
-test_images
-
-datasets/udacity/test/images
-
-test_annotations
-
-datasets/udacity/test/annotations.json
-```
+The datasets may be stored anywhere on your system or HPC storage.
 
 ---
 
@@ -146,13 +110,13 @@ datasets/udacity/test/annotations.json
 
 ## Udacity Self-Driving Car Dataset
 
-Used as the primary training dataset for SCOPE.
+Primary dataset used for training and evaluation.
 
 ---
 
 ## KITTI
 
-Used for cross-dataset evaluation and benchmarking.
+Used for benchmarking and cross-dataset evaluation.
 
 ---
 
@@ -164,19 +128,20 @@ Used to evaluate the generalization capability of SCOPE under diverse driving sc
 
 ## nuScenes
 
-Used to evaluate robustness in large-scale autonomous driving environments.
+Used to evaluate robustness on large-scale autonomous driving scenes.
 
 ---
 
 # Notes
 
-- All images should be stored in RGB format.
-- Bounding boxes must follow the COCO format.
-- Category IDs must be consistent with the annotation file.
-- The repository automatically loads the appropriate dataset based on the selected configuration.
+- Images must be stored in RGB format.
+- Annotations must follow the COCO detection format.
+- Category IDs must be consistent with the corresponding annotation file.
+- Dataset paths are defined through the configuration files and can point to any valid location.
+- The repository does **not** require datasets to be copied into the project directory.
 
 ---
 
 # Dataset Citation
 
-Please cite the original dataset papers if you use these datasets in your research.
+If you use any of these datasets in your research, please cite the corresponding original dataset papers.

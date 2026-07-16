@@ -188,8 +188,3 @@ Reduce the batch size in the training configuration.
 
 
 
-# Citation
-
-If you find this repository useful in your research, please consider citing our paper.
-
-See the BibTeX entry provided in the repository README.

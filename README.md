@@ -166,13 +166,13 @@ SCOPE/
 
 For installation, dependency setup, HPC configuration, and software requirements, please follow the instructions provided in **[INSTALL.md](INSTALL.md)**.
 
----
+
 
 # Data Preparation
 
 Please refer to **[DATASETS.md](DATASETS.md)** for downloading the datasets, preparing COCO-format annotations, and reproducing the in-domain and cross-domain experimental protocols used in SCOPE.
 
----
+
 
 # Training and Evaluation
 

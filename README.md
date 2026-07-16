@@ -160,8 +160,6 @@ SCOPE/
 
 
 
----
-
 # Installation
 
 For installation, dependency setup, HPC configuration, and software requirements, please follow the instructions provided in **[INSTALL.md](INSTALL.md)**.

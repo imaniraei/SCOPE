@@ -241,20 +241,4 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 The SCOPE manuscript is currently under review at IEEE Transactions on Intelligent Transportation Systems (T-ITS).
 
-
-
-
-## Citation
-
-If you use our work, please consider citing:
-
-
-```bibtex
-@article{iraei2026scope,
-  title={SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles},
-  author={Iraei, Iman and Ahmad, M. Omair and Swamy, M. N. S.},
-  journal={Submitted to IEEE Transactions on Intelligent Transportation Systems (T-ITS)},
-  year={2026}
-}
-```
-<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/69a4775d-3476-4d84-aea1-d1e9d8b0b6ee" />
+<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/423baf50-50f6-4133-90e2-9ea22359fe2a" />

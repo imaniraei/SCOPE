@@ -11,7 +11,7 @@ SCOPE supports the following autonomous driving datasets:
 
 All datasets must be converted to the **COCO Detection JSON** format before training or evaluation.
 
----
+
 
 # Download the Datasets
 
@@ -21,7 +21,7 @@ Please download each dataset from its official source and store it in a location
 
 The repository only requires the paths to these datasets during training and evaluation.
 
----
+
 
 # Official Dataset Links
 
@@ -109,7 +109,7 @@ test_annotations: /speed-scratch/username/datasets/udacity/test/annotations.json
 
 Dataset paths may point to any valid location on a local machine or HPC filesystem.
 
----
+
 
 # Experimental Protocol
 
@@ -118,7 +118,7 @@ SCOPE is evaluated under two experimental settings:
 1. In-domain evaluation
 2. Cross-domain generalization
 
----
+
 
 ## In-domain Evaluation
 
@@ -133,7 +133,7 @@ For in-domain experiments, SCOPE is trained and evaluated separately on each dat
 
 These experiments measure object detection performance when the training and evaluation data belong to the same domain.
 
----
+
 
 ## Cross-domain Generalization
 
@@ -148,7 +148,7 @@ No target-domain fine-tuning is performed during cross-domain evaluation.
 
 This protocol evaluates the robustness and transferability of SCOPE across different autonomous driving environments.
 
----
+
 
 # Supported Datasets
 
@@ -158,13 +158,13 @@ Used for in-domain training and evaluation.
 
 It is also used as the source-domain training dataset for cross-domain evaluation on BDD100K and nuScenes.
 
----
+
 
 ## KITTI
 
 Used for in-domain training, evaluation, and benchmarking.
 
----
+
 
 ## BDD100K
 
@@ -173,7 +173,7 @@ Used in two settings:
 - In-domain training and evaluation
 - Cross-domain evaluation using a model trained on Udacity
 
----
+
 
 ## nuScenes
 
@@ -182,7 +182,7 @@ Used in two settings:
 - In-domain training and evaluation
 - Cross-domain evaluation using a model trained on Udacity
 
----
+
 
 # Notes
 
@@ -194,10 +194,4 @@ Used in two settings:
 - During cross-domain evaluation, no target-domain fine-tuning is performed on BDD100K or nuScenes.
 - Dataset locations may reside anywhere on a local machine or HPC filesystem.
 
----
 
-# Dataset Citation
-
-If you use any of these datasets in your research, please cite the corresponding original dataset papers.
-
-Please also respect the license and terms of use provided by each dataset.

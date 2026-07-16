@@ -27,7 +27,7 @@ The repository only requires the paths to these datasets during training and eva
 
 | Dataset | Official Website |
 |----------|------------------|
-| Udacity Self-Driving Car Dataset | https://https://public.roboflow.com/object-detection/self-driving-car/ |
+| Udacity Self-Driving Car Dataset | https://public.roboflow.com/object-detection/self-driving-car/ |
 | KITTI Vision Benchmark Suite | https://www.cvlibs.net/datasets/kitti/ |
 | BDD100K | https://bdd-data.berkeley.edu/ |
 | nuScenes | https://www.nuscenes.org/ |

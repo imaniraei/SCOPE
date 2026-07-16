@@ -161,6 +161,36 @@ SCOPE/
 
 
 
+---
+
+# Installation
+
+For installation, dependency setup, HPC configuration, and software requirements, please follow the instructions provided in **[INSTALL.md](INSTALL.md)**.
+
+---
+
+# Data Preparation
+
+Please refer to **[DATASETS.md](DATASETS.md)** for downloading the datasets, preparing COCO-format annotations, and reproducing the in-domain and cross-domain experimental protocols used in SCOPE.
+
+---
+
+# Training and Evaluation
+
+Please refer to **[RUN.md](RUN.md)** for detailed instructions on training, evaluation, inference, reproducing the reported experimental results, and running SCOPE on HPC (SLURM).
+
+---
+
+# Google Colab Demo
+
+A lightweight inference notebook is available in **[notebooks/SCOPE_Inference.ipynb](notebooks/SCOPE_Inference.ipynb)** for quickly testing pretrained SCOPE models without requiring an HPC environment.
+
+---
+
+
+
+
+
 
 ## 📊 Experimental Results
 
@@ -241,4 +271,20 @@ Performance evaluation and Grad-CAM visualization on the nuScenes dataset.
 
 The SCOPE manuscript is currently under review at IEEE Transactions on Intelligent Transportation Systems (T-ITS).
 
-<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/423baf50-50f6-4133-90e2-9ea22359fe2a" />
+
+
+
+## Citation
+
+If you use our work, please consider citing:
+
+
+```bibtex
+@article{iraei2026scope,
+  title={SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time Object Detection in Autonomous Vehicles},
+  author={Iraei, Iman and Ahmad, M. Omair and Swamy, M. N. S.},
+  journal={Submitted to IEEE Transactions on Intelligent Transportation Systems (T-ITS)},
+  year={2026}
+}
+```
+<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/a15b01d0-117a-4540-bb14-4615e5f53893" />

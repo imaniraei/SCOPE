@@ -27,14 +27,13 @@ The repository only requires the paths to these datasets during training and eva
 
 | Dataset | Official Website |
 |----------|------------------|
-| Udacity Self-Driving Car Dataset | https://github.com/udacity/self-driving-car |
+| Udacity Self-Driving Car Dataset | https://https://public.roboflow.com/object-detection/self-driving-car/ |
 | KITTI Vision Benchmark Suite | https://www.cvlibs.net/datasets/kitti/ |
 | BDD100K | https://bdd-data.berkeley.edu/ |
 | nuScenes | https://www.nuscenes.org/ |
 
 Please follow the official instructions provided by each dataset for downloading and licensing.
 
----
 
 # Expected Dataset Structure
 
@@ -55,11 +54,7 @@ dataset_name/
     └── annotations.json
 ```
 
-The datasets **do not need to be stored inside the SCOPE repository**.
 
-They may be stored anywhere on a local machine or HPC filesystem.
-
----
 
 # Supported Annotation Format
 
@@ -76,7 +71,6 @@ The annotation file must contain the standard COCO fields:
 - `annotations`
 - `categories`
 
----
 
 # Dataset Configuration
 

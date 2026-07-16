@@ -184,14 +184,4 @@ Used in two settings:
 
 
 
-# Notes
-
-- All datasets must be converted to the COCO Detection format.
-- Images should be stored in RGB format.
-- Annotation files must follow the official COCO Detection specification.
-- Dataset paths are specified through YAML configuration files.
-- The datasets are **not included** in this repository.
-- During cross-domain evaluation, no target-domain fine-tuning is performed on BDD100K or nuScenes.
-- Dataset locations may reside anywhere on a local machine or HPC filesystem.
-
 

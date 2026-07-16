@@ -277,4 +277,4 @@ If you use our work, please consider citing:
   year={2026}
 }
 ```
-<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/a15b01d0-117a-4540-bb14-4615e5f53893" />
+

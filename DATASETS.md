@@ -17,7 +17,7 @@ All datasets must be converted to the **COCO Detection JSON** format before trai
 
 The datasets are **not included** in this repository.
 
-Please download each dataset from its official source and store it in a location of your choice (e.g., a local machine, external storage, or an HPC filesystem).
+Please download each dataset from its official source and store it in a location of your choice, such as a local machine, external storage, or an HPC filesystem.
 
 The repository only requires the paths to these datasets during training and evaluation.
 
@@ -40,19 +40,16 @@ Please follow the official instructions provided by each dataset for downloading
 
 Each dataset should follow the standard COCO Detection directory structure.
 
-Example
+Example:
 
-```
+```text
 dataset_name/
-
 ├── train/
 │   ├── images/
 │   └── annotations.json
-│
 ├── val/
 │   ├── images/
 │   └── annotations.json
-│
 └── test/
     ├── images/
     └── annotations.json
@@ -60,7 +57,7 @@ dataset_name/
 
 The datasets **do not need to be stored inside the SCOPE repository**.
 
-They may be stored anywhere on your local machine or HPC storage.
+They may be stored anywhere on a local machine or HPC filesystem.
 
 ---
 
@@ -68,93 +65,94 @@ They may be stored anywhere on your local machine or HPC storage.
 
 SCOPE expects annotations in the standard **COCO Detection** format.
 
-Each dataset split should contain
+Each dataset split should contain:
 
-- images/
-- annotations.json
+- `images/`
+- `annotations.json`
 
 The annotation file must contain the standard COCO fields:
 
-- images
-- annotations
-- categories
+- `images`
+- `annotations`
+- `categories`
 
 ---
 
 # Dataset Configuration
 
-Specify the dataset locations inside the corresponding YAML configuration file located in
+Specify the dataset locations inside the corresponding YAML configuration file located in:
 
-```
+```text
 configs/
 ```
 
-For example,
+For example:
 
-```
+```text
 configs/dataset_udacity.yaml
 ```
 
-Replace all placeholder paths
+Replace all placeholder paths:
 
-```
+```text
 /path/to/...
 ```
 
 with the actual dataset locations.
 
-Example
+Example:
 
 ```yaml
 train_images: /speed-scratch/username/datasets/udacity/train/images
-
 train_annotations: /speed-scratch/username/datasets/udacity/train/annotations.json
 
 val_images: /speed-scratch/username/datasets/udacity/val/images
-
 val_annotations: /speed-scratch/username/datasets/udacity/val/annotations.json
+
+test_images: /speed-scratch/username/datasets/udacity/test/images
+test_annotations: /speed-scratch/username/datasets/udacity/test/annotations.json
 ```
 
-Dataset paths may point to any valid location on your local machine or HPC filesystem.
+Dataset paths may point to any valid location on a local machine or HPC filesystem.
 
 ---
 
 # Experimental Protocol
 
-SCOPE is evaluated under two experimental settings.
+SCOPE is evaluated under two experimental settings:
+
+1. In-domain evaluation
+2. Cross-domain generalization
+
+---
 
 ## In-domain Evaluation
 
-The proposed method is trained and evaluated on:
+For in-domain experiments, SCOPE is trained and evaluated separately on each dataset.
 
-- Udacity Self-Driving Car Dataset
-- KITTI
+| Dataset | Training | Evaluation |
+|----------|:--------:|:----------:|
+| Udacity Self-Driving Car Dataset | ✅ | ✅ |
+| KITTI | ✅ | ✅ |
+| BDD100K | ✅ | ✅ |
+| nuScenes | ✅ | ✅ |
 
-These experiments measure object detection performance within the same domain.
+These experiments measure object detection performance when the training and evaluation data belong to the same domain.
 
 ---
 
 ## Cross-domain Generalization
 
-To evaluate the generalization capability of SCOPE, the model is trained **exclusively on the Udacity Self-Driving Car Dataset** and directly evaluated on unseen autonomous driving datasets **without target-domain fine-tuning**.
+For cross-domain experiments, SCOPE is trained exclusively on the Udacity Self-Driving Car Dataset and directly evaluated on unseen target-domain datasets.
 
-The cross-domain benchmarks include:
+| Training Dataset | Evaluation Dataset | Target-Domain Fine-Tuning |
+|------------------|--------------------|:-------------------------:|
+| Udacity Self-Driving Car Dataset | BDD100K | ❌ |
+| Udacity Self-Driving Car Dataset | nuScenes | ❌ |
 
-- BDD100K
-- nuScenes
+No target-domain fine-tuning is performed during cross-domain evaluation.
 
 This protocol evaluates the robustness and transferability of SCOPE across different autonomous driving environments.
-
----
-
-# Experimental Summary
-
-| Dataset | Evaluation Setting | COCO Format | Used for Training | Used for Evaluation |
-|----------|-------------------|:-----------:|:----------------:|:-------------------:|
-| Udacity Self-Driving Car | In-domain | ✅ | ✅ | ✅ |
-| KITTI | In-domain | ✅ | ✅ | ✅ |
-| BDD100K | Cross-domain | ✅ | ❌ | ✅ |
-| nuScenes | Cross-domain | ✅ | ❌ | ✅ |
 
 ---
 
@@ -162,25 +160,33 @@ This protocol evaluates the robustness and transferability of SCOPE across diffe
 
 ## Udacity Self-Driving Car Dataset
 
-Primary dataset used for model training and in-domain evaluation.
+Used for in-domain training and evaluation.
+
+It is also used as the source-domain training dataset for cross-domain evaluation on BDD100K and nuScenes.
 
 ---
 
 ## KITTI
 
-Used for additional in-domain evaluation and benchmarking.
+Used for in-domain training, evaluation, and benchmarking.
 
 ---
 
 ## BDD100K
 
-Used exclusively for cross-domain generalization evaluation.
+Used in two settings:
+
+- In-domain training and evaluation
+- Cross-domain evaluation using a model trained on Udacity
 
 ---
 
 ## nuScenes
 
-Used exclusively for cross-domain generalization evaluation.
+Used in two settings:
+
+- In-domain training and evaluation
+- Cross-domain evaluation using a model trained on Udacity
 
 ---
 
@@ -189,9 +195,9 @@ Used exclusively for cross-domain generalization evaluation.
 - All datasets must be converted to the COCO Detection format.
 - Images should be stored in RGB format.
 - Annotation files must follow the official COCO Detection specification.
-- Dataset paths are specified through the YAML configuration files.
+- Dataset paths are specified through YAML configuration files.
 - The datasets are **not included** in this repository.
-- During cross-domain evaluation, **no target-domain fine-tuning** is performed on BDD100K or nuScenes.
+- During cross-domain evaluation, no target-domain fine-tuning is performed on BDD100K or nuScenes.
 - Dataset locations may reside anywhere on a local machine or HPC filesystem.
 
 ---

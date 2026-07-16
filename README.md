@@ -95,15 +95,12 @@ Public datasets used in our study:
 
 
 
-## 🚀 Code and Models
+## 🚀 Google Colab Demo
 
-A lightweight inference notebook is available in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb) for quickly testing pretrained SCOPE models without requiring an HPC environment.
-
-### Google Colab Demo
+A lightweight inference notebook is available for quickly testing pretrained SCOPE models without requiring an HPC environment.---> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/imaniraei/SCOPE/blob/main/notebooks/SCOPE-Training.ipynb)
 
 
 
-The Colab notebook will provide a quick demonstration of inference using the pretrained SCOPE models.
 
 ### Repository Contents
 - Training scripts

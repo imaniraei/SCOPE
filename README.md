@@ -10,6 +10,13 @@ SCOPE: Spatial-Channel Optimization with Efficient Adaptive Fusion for Real-Time
   <a href="https://users.encs.concordia.ca/~swamy/">M. N. S. Swamy</a>
 </p>
 
+
+<p align="center">
+Department of Electrical and Computer Engineering<br>
+Concordia University, Montreal, QC, Canada
+</p>
+
+
 <p align="center">
   <a href=""><img src="https://img.shields.io/badge/📄_Paper-T--ITS-green"></a>
   <a href="#framework-overview"><img src="https://img.shields.io/badge/🔗_Project-Overview-blue"></a>

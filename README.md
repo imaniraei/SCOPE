@@ -26,7 +26,7 @@ Concordia University, Montreal, QC, Canada
   <a href="#citation"><img src="https://img.shields.io/badge/📚_BibTeX-Citation-purple"></a>
 </p>
 
-
+---
 
 ## Overview
 
